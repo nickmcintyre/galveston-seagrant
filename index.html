@@ -3,7 +3,32 @@
 <head>
   <title>Flood Risk | Galveston, TX</title>
   <meta name="description" content="An interactive tool for exploring flood risk in Galveston, TX.">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="utf-8">
+	<meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+  <link rel="stylesheet" href="css/leaflet.css">
+  <script src="js/leaflet.js"></script>
+  <style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+    @font-face {
+      font-family: "Roboto Condensed";
+      src: url(fonts/RobotoCondensed-Regular.ttf) format("truetype");
+    }
+    @font-face {
+      font-family: "Open Sans";
+      src: url(fonts/OpenSans-Regular.ttf) format("truetype");
+    }
+    .leaflet-container {
+      font: 12px/1.5 "Open Sans", sans-serif;
+    }
+	</style>
 </head>
 <body>
+  <script src="js/p5.min.js"></script>
+  <script src="js/p5.dom.min.js"></script>
+  <script src="sketch.js"></script>
 </body>
 </html>
