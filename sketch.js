@@ -200,7 +200,7 @@ function createGuide() {
     Explore different combinations of flooding category,
     storm, year and sea level rise (SLR). Hover over any
     of the buildings studied &mdash; marked as circles &mdash;
-    to learn about observed and projected imapcts.</p>
+    to learn about observed and projected impacts.</p>
   `);
   messageDiv.parent('guide');
   messageDiv.style('padding-left', '10%');
